@@ -3,11 +3,6 @@
 
 
 
-
-[TOC]
-
-
-
 # Colocalization Indices
 
 ### Author
