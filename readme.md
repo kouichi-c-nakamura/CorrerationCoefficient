@@ -15,20 +15,15 @@ Kouichi Nakamura (Kyoto Univ)
 
 ### Source
 
-Colocalization_Indices.java
+[Colocalization_Indices.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/Colocalization_Indices.java)
 
 ### Installation
 
-Download Colocalization_Indices.java to the plugins folder or subfolder, and compile it with the "Compile and Run" command. Restart ImageJ to add the "Colocalization_Indices" command to the Plugins menu. 
+Download [Colocalization_Indices.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/Colocalization_Indices.java) to the plugins folder or subfolder, and compile it with the "Compile and Run" command. Restart ImageJ to add the "Colocalization_Indices" command to the Plugins menu. 
 
 ### Description
 
-ImageJ PlugInFilter "Colocalization_Indices.java" is designed for the quantitative colocalization 
-analysis of two immunoreactivities in double immunofluorescence staining.  This PlugInFilter 
-calculates correlation coefficients (CC, or Pearson's r), intensity correlation quotient 
-(ICQ), and overlap coefficient (OC) from two channels (red and green, in most cases) in 
-8bit RGB, 12bit RGB, or 16bit RGB images.  This supports image stacks and ROI (region of
-interest), and can make a scatter plot graph.
+ImageJ PlugInFilter "Colocalization_Indices.java" is designed for the quantitative colocalization analysis of two immunoreactivities in double immunofluorescence staining.  This PlugInFilter calculates correlation coefficients (CC, or Pearson's r), intensity correlation quotient (ICQ), and overlap coefficient (OC) from two channels (red and green, in most cases) in 8bit RGB, 12bit RGB, or 16bit RGB images.  This supports image stacks and ROI (region of interest), and can make a scatter plot graph.
 
 #### Procedures
 
@@ -83,9 +78,9 @@ The data contain 54 values.
 The following is consist of 5 data groups.
 
 + '-saturated' (or '-s')    ...Pixels for {(red value<4095) AND (green value<4095)}
-+ 'p<red<4095' (or 'r>p')    ...Pixels for {p<red value<4095}
-+'q<green<4095' (or 'g>q')    ...Pixels for {q<green value<4095}
-+ 'p,q<red,green<4095' (or 'rg')    ...Pixels for {(p<red value<4095) OR (q<green value<4095)}
++ 'p < red < 4095' (or 'r > p')    ...Pixels for {p<red value<4095}
++ 'q < green < 4095' (or 'g > q')    ...Pixels for {q<green value<4095}
++ 'p,q < red, green < 4095' (or 'rg')    ...Pixels for {(p<red value<4095) OR (q<green value<4095)}
 + 'total' (or 't')    ...Total pixels
 
 
@@ -123,11 +118,11 @@ Kouichi Nakamura (Kyoto Univ)
 
 ### Source
 
-[PixData_Shuffler.java](http://www.mbs.med.kyoto-u.ac.jp/imagej/PixData_Shuffler.java) and [PixData.java](http://www.mbs.med.kyoto-u.ac.jp/imagej/PixData.java)
+[PixData_Shuffler.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/PixData_Shuffler.java) and [PixData.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/PixData.java)
 
 ### Installation
 
-Download [PixData_Shuffler.java](http://www.mbs.med.kyoto-u.ac.jp/imagej/PixData_Shuffler.java) and [PixData.java](http://www.mbs.med.kyoto-u.ac.jp/imagej/PixData.java) to the plugins folder or subfolder, and compile them with the "Compile and Run" command. Restart ImageJ to add the "PixData_Shuffler" command to the Plugins menu.
+Download [PixData_Shuffler.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/PixData_Shuffler.java) and [PixData.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/PixData.java) to the plugins folder or subfolder, and compile them with the "Compile and Run" command. Restart ImageJ to add the "PixData_Shuffler" command to the Plugins menu.
 
 ### Description
 
@@ -168,15 +163,15 @@ Kouichi Nakamura
 
 ### Source
 
-Quantile_999.java
+[Quantile_999.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/Quantile_999.java)
 
 ### Installation
 
-Download [Quantile_999.java](http://www.mbs.med.kyoto-u.ac.jp/imagej/Quantile_999.java) to the plugins folder or subfolder, and compile it with the "Compile and Run" command. Restart ImageJ to add the "Quantile 999" command to the Plugins menu.
+Download [Quantile_999.java](https://github.com/kouichi-c-nakamura/CorrerationCoefficient/blob/master/Quantile_999.java) to the plugins folder or subfolder, and compile it with the "Compile and Run" command. Restart ImageJ to add the "Quantile 999" command to the Plugins menu.
 
 ### Description
 
-This Plugin calcurates 999/1000 quantile and 99/100 quantile (= pecentile) of the fluorescence intensity in an image. This Plugin suppors ROI and stack images.
+This Plugin calculates 999/1000 quantile and 99/100 quantile (= percentile) of the fluorescence intensity in an image. This Plugin supports ROI and stack images.
 
 #### Procedures
 
